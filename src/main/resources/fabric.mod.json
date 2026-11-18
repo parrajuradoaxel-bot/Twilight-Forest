@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "twilightforest",
+  "version": "${version}",
+  "name": "The Twilight Forest (Fabric port)",
+  "description": "Unofficial Fabric port of The Twilight Forest to Minecraft 26.3.",
+  "authors": ["TeamTwilight / Benimatic (original)", "Port contributors"],
+  "license": "LGPL-2.1-only",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["twilightforest.fabric.TwilightForestFabric"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
